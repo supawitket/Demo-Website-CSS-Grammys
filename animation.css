@@ -1,0 +1,42 @@
+@-webkit-keyframes fadein {
+	0% {
+		opacity: 0;
+		margin-top:500px;
+	}
+	70% {
+		margin-top:390px;
+	}
+	100% {
+		opacity: 1;
+		margin-top:400px;
+	}
+}
+@-webkit-keyframes fadein_menu {
+	0%, 50% {
+		margin-top:-50px;
+	}
+	100% {
+		margin-top:0px;
+	}
+}
+@-webkit-keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes modal_fade {
+	0% {
+		opacity: 0;
+		margin-top:150px;
+	}
+	70% {
+		margin-top:95px;
+	}
+	100% {
+		opacity: 1;
+		margin-top:100px;
+	}
+}
